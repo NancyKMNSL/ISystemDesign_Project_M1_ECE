@@ -27,6 +27,14 @@ function AdminSignup() {
     <div style={{ maxWidth: "400px", margin: "50px auto", textAlign: "center" }}>
       <h2>Création de compte Administrateur</h2>
       <form onSubmit={handleSubmit}>
+
+        <input
+          type="nom"
+          placeholder="Nom"
+          value={email}
+          style={{ width: "100%", padding: "10px", margin: "10px 0" }}
+          required
+        />
         <input
           type="email"
           placeholder="Adresse email"
